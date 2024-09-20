@@ -1,0 +1,707 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Memory/4.5.5": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "EpicGames.Build/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EpicGames.Core": "1.0.0",
+          "EpicGames.IoHash": "1.0.0",
+          "EpicGames.MsBuild": "1.0.0",
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "6.0.0",
+          "System.Security.Permissions": "4.7.0"
+        },
+        "compile": {
+          "bin/placeholder/EpicGames.Build.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EpicGames.Build.dll": {}
+        }
+      },
+      "EpicGames.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "JetBrains.Annotations": "2022.1.0",
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.Http.Polly": "6.0.26",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "Microsoft.Extensions.Logging.Console": "6.0.0",
+          "Microsoft.Extensions.ObjectPool": "6.0.8",
+          "OpenTracing": "0.12.1",
+          "System.Memory": "4.5.5"
+        },
+        "compile": {
+          "bin/placeholder/EpicGames.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EpicGames.Core.dll": {}
+        }
+      },
+      "EpicGames.Horde/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BitFaster.Caching": "2.4.1",
+          "Dapper": "2.1.24",
+          "EpicGames.Core": "1.0.0",
+          "EpicGames.IoHash": "1.0.0",
+          "EpicGames.OIDC": "1.0.0",
+          "EpicGames.Oodle": "1.0.0",
+          "EpicGames.Serialization": "1.0.0",
+          "K4os.Compression.LZ4": "1.2.16",
+          "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.2.0",
+          "Microsoft.Data.Sqlite": "8.0.0",
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Caching.Memory": "6.0.1",
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Microsoft.Extensions.Http.Polly": "6.0.26",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EpicGames.Horde.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EpicGames.Horde.dll": {}
+        }
+      },
+      "EpicGames.IoHash/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Blake3": "0.5.1",
+          "EpicGames.Core": "1.0.0",
+          "System.Memory": "4.5.5"
+        },
+        "compile": {
+          "bin/placeholder/EpicGames.IoHash.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EpicGames.IoHash.dll": {}
+        }
+      },
+      "EpicGames.MsBuild/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EpicGames.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EpicGames.MsBuild.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EpicGames.MsBuild.dll": {}
+        }
+      },
+      "EpicGames.OIDC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "IdentityModel.OidcClient": "4.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "6.0.0",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EpicGames.OIDC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EpicGames.OIDC.dll": {}
+        }
+      },
+      "EpicGames.Oodle/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/EpicGames.Oodle.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EpicGames.Oodle.dll": {}
+        }
+      },
+      "EpicGames.Serialization/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EpicGames.IoHash": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EpicGames.Serialization.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EpicGames.Serialization.dll": {}
+        }
+      },
+      "EpicGames.UBA/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EpicGames.UBA.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EpicGames.UBA.dll": {}
+        }
+      },
+      "EpicGames.UHT/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EpicGames.Build": "1.0.0",
+          "EpicGames.Core": "1.0.0",
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "compile": {
+          "bin/placeholder/EpicGames.UHT.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EpicGames.UHT.dll": {}
+        }
+      },
+      "UE5ProgramRules/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EpicGames.Build": "1.0.0",
+          "UE5Rules": "1.0.0",
+          "UnrealBuildTool": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UE5ProgramRules.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UE5ProgramRules.dll": {}
+        }
+      },
+      "UE5Rules/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EpicGames.Build": "1.0.0",
+          "UnrealBuildTool": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UE5Rules.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UE5Rules.dll": {}
+        }
+      },
+      "UnrealBuildTool/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EpicGames.Build": "1.0.0",
+          "EpicGames.Core": "1.0.0",
+          "EpicGames.Horde": "1.0.0",
+          "EpicGames.IoHash": "1.0.0",
+          "EpicGames.OIDC": "1.0.0",
+          "EpicGames.Serialization": "1.0.0",
+          "EpicGames.UBA": "1.0.0",
+          "EpicGames.UHT": "1.0.0",
+          "Microsoft.Extensions.Logging.Console": "6.0.0",
+          "Newtonsoft.Json": "13.0.1",
+          "System.Management": "4.7.0",
+          "System.ServiceProcess.ServiceController": "4.7.0"
+        },
+        "compile": {
+          "bin/placeholder/UnrealBuildTool.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnrealBuildTool.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "System.Memory/4.5.5": {
+      "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "type": "package",
+      "path": "system.memory/4.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.5.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "EpicGames.Build/1.0.0": {
+      "type": "project",
+      "path": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Build/EpicGames.Build.csproj",
+      "msbuildProject": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Build/EpicGames.Build.csproj"
+    },
+    "EpicGames.Core/1.0.0": {
+      "type": "project",
+      "path": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Core/EpicGames.Core.csproj",
+      "msbuildProject": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Core/EpicGames.Core.csproj"
+    },
+    "EpicGames.Horde/1.0.0": {
+      "type": "project",
+      "path": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Horde/EpicGames.Horde.csproj",
+      "msbuildProject": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Horde/EpicGames.Horde.csproj"
+    },
+    "EpicGames.IoHash/1.0.0": {
+      "type": "project",
+      "path": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.IoHash/EpicGames.IoHash.csproj",
+      "msbuildProject": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.IoHash/EpicGames.IoHash.csproj"
+    },
+    "EpicGames.MsBuild/1.0.0": {
+      "type": "project",
+      "path": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.MsBuild/EpicGames.MsBuild.csproj",
+      "msbuildProject": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.MsBuild/EpicGames.MsBuild.csproj"
+    },
+    "EpicGames.OIDC/1.0.0": {
+      "type": "project",
+      "path": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.OIDC/EpicGames.OIDC.csproj",
+      "msbuildProject": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.OIDC/EpicGames.OIDC.csproj"
+    },
+    "EpicGames.Oodle/1.0.0": {
+      "type": "project",
+      "path": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Oodle/EpicGames.Oodle.csproj",
+      "msbuildProject": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Oodle/EpicGames.Oodle.csproj"
+    },
+    "EpicGames.Serialization/1.0.0": {
+      "type": "project",
+      "path": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Serialization/EpicGames.Serialization.csproj",
+      "msbuildProject": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Serialization/EpicGames.Serialization.csproj"
+    },
+    "EpicGames.UBA/1.0.0": {
+      "type": "project",
+      "path": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.UBA/EpicGames.UBA.csproj",
+      "msbuildProject": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.UBA/EpicGames.UBA.csproj"
+    },
+    "EpicGames.UHT/1.0.0": {
+      "type": "project",
+      "path": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.UHT/EpicGames.UHT.csproj",
+      "msbuildProject": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.UHT/EpicGames.UHT.csproj"
+    },
+    "UE5ProgramRules/1.0.0": {
+      "type": "project",
+      "path": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Intermediate/Build/BuildRulesProjects/UE5ProgramRules/UE5ProgramRules.csproj",
+      "msbuildProject": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Intermediate/Build/BuildRulesProjects/UE5ProgramRules/UE5ProgramRules.csproj"
+    },
+    "UE5Rules/1.0.0": {
+      "type": "project",
+      "path": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Intermediate/Build/BuildRulesProjects/UE5Rules/UE5Rules.csproj",
+      "msbuildProject": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Intermediate/Build/BuildRulesProjects/UE5Rules/UE5Rules.csproj"
+    },
+    "UnrealBuildTool/1.0.0": {
+      "type": "project",
+      "path": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/UnrealBuildTool/UnrealBuildTool.csproj",
+      "msbuildProject": "../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/UnrealBuildTool/UnrealBuildTool.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "EpicGames.Build >= 1.0.0",
+      "UE5ProgramRules >= 1.0.0",
+      "UE5Rules >= 1.0.0",
+      "UnrealBuildTool >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ndlov\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ndlov\\Documents\\virtual-agent-capstone\\VirtualAgent\\Intermediate\\Build\\BuildRulesProjects\\VirtualAgentModuleRules\\VirtualAgentModuleRules.csproj",
+      "projectName": "VirtualAgentModuleRules",
+      "projectPath": "C:\\Users\\ndlov\\Documents\\virtual-agent-capstone\\VirtualAgent\\Intermediate\\Build\\BuildRulesProjects\\VirtualAgentModuleRules\\VirtualAgentModuleRules.csproj",
+      "packagesPath": "C:\\Users\\ndlov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ndlov\\Documents\\virtual-agent-capstone\\VirtualAgent\\Intermediate\\Build\\BuildRulesProjects\\VirtualAgentModuleRules\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ndlov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj": {
+              "projectPath": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj"
+            },
+            "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj": {
+              "projectPath": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj"
+            },
+            "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj": {
+              "projectPath": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj"
+            },
+            "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
+              "projectPath": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.26, 6.0.26]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.26, 6.0.26]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.26, 6.0.26]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'System.Security.Permissions (>= 4.7.0)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Security.Permissions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Extensions.FileSystemGlobbing (>= 6.0.0)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.Extensions.FileSystemGlobbing",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.CSharp (>= 4.7.0)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.CSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'System.Management (>= 4.7.0)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Management",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'System.ServiceProcess.ServiceController (>= 4.7.0)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.ServiceProcess.ServiceController",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Extensions.Logging.Console (>= 6.0.0)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.Extensions.Logging.Console",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'OpenTracing (>= 0.12.1)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "OpenTracing",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Extensions.ObjectPool (>= 6.0.8)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.Extensions.ObjectPool",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Extensions.Logging (>= 6.0.0)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.Extensions.Logging",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'JetBrains.Annotations (>= 2022.1.0)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "JetBrains.Annotations",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Extensions.Logging.Abstractions (>= 6.0.1)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.Extensions.Logging.Abstractions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Extensions.Configuration (>= 8.0.0)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.Extensions.Configuration",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Extensions.Http.Polly (>= 6.0.26)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.Extensions.Http.Polly",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Blake3 (>= 0.5.1)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Blake3",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Extensions.Caching.Abstractions (>= 6.0.0)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.Extensions.Caching.Abstractions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'BitFaster.Caching (>= 2.4.1)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "BitFaster.Caching",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Extensions.Caching.Memory (>= 6.0.1)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.Extensions.Caching.Memory",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Extensions.Http (>= 6.0.0)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.Extensions.Http",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Data.Sqlite (>= 8.0.0)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.Data.Sqlite",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.CodeAnalysis.CSharp.Workspaces (>= 4.2.0)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'K4os.Compression.LZ4 (>= 1.2.16)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "K4os.Compression.LZ4",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Dapper (>= 2.1.24)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Dapper",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Extensions.Configuration.Binder (>= 6.0.0)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.Extensions.Configuration.Binder",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Extensions.Configuration.Json (>= 6.0.0)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.Extensions.Configuration.Json",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'IdentityModel.OidcClient (>= 4.0.0)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "IdentityModel.OidcClient",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.WindowsDesktop.App.Ref (= 6.0.26)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.NETCore.App.Ref (= 6.0.26)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.NETCore.App.Ref",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.AspNetCore.App.Ref (= 6.0.26)' for 'net6.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.AspNetCore.App.Ref",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
