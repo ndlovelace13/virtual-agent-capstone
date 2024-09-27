@@ -7,6 +7,9 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\ndlov\Documents\Unreal Projects\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\VirtualAgentEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\ndlov\Documents\Unreal Projects\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualAgent\TextStorage.gen.cpp.obj"
+"C:\Users\ndlov\Documents\Unreal Projects\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualAgent\VirtualAgent.init.gen.cpp.obj"
+"C:\Users\ndlov\Documents\Unreal Projects\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualAgent\TextStorage.cpp.obj"
 "C:\Users\ndlov\Documents\Unreal Projects\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualAgent\VirtualAgent.cpp.obj"
 "C:\Users\ndlov\Documents\Unreal Projects\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualAgent\Default.rc2.res"
 /OUT:"C:\Users\ndlov\Documents\Unreal Projects\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualAgent\UnrealEditor-VirtualAgent.lib"

@@ -11,6 +11,7 @@
     <None Include="..\..\Source\VirtualAgentEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -29,6 +30,12 @@
     <Filter Include="Source\VirtualAgent">
       <UniqueIdentifier>{C592A0AA-3627-39DB-85B5-9A11B84C75C2}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\VirtualAgent\TextStorage.cpp">
+      <Filter>Source\VirtualAgent</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VirtualAgent\TextStorage.h">
+      <Filter>Source\VirtualAgent</Filter>
+    </ClInclude>
     <None Include="..\..\Source\VirtualAgent\VirtualAgent.Build.cs">
       <Filter>Source\VirtualAgent</Filter>
     </None>
