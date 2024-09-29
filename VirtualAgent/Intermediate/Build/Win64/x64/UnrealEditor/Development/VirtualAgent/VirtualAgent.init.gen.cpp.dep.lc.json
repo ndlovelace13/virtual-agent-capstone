@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\ndlov\\documents\\unreal projects\\virtual-agent-capstone\\virtualagent\\intermediate\\build\\win64\\unrealeditor\\inc\\virtualagent\\uht\\virtualagent.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\ndlov\\documents\\unreal projects\\virtual-agent-capstone\\virtualagent\\intermediate\\build\\win64\\x64\\virtualagenteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\ndlov\\documents\\unreal projects\\virtual-agent-capstone\\virtualagent\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\virtualagent\\definitions.virtualagent.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
