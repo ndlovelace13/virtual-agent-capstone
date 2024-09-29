@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/ndlov/Documents/Unreal Projects/virtual-agent-capstone/VirtualAgent/Content/3DModel_LowPoly.uasset",
+				"C:/Users/ndlov/Documents/Unreal Projects/virtual-agent-capstone/VirtualAgent/Content/3DModel_LowPoly1.uasset",
+				"C:/Users/ndlov/Documents/Unreal Projects/virtual-agent-capstone/VirtualAgent/Content/Solid.uasset",
+				"C:/Users/ndlov/Documents/Unreal Projects/virtual-agent-capstone/VirtualAgent/Content/TEX_3DModel_LowPoly.uasset",
 				"C:/Users/ndlov/Documents/virtual-agent-capstone/VirtualAgent/Content/Prototype1_HLOD0_Instancing.uasset",
 				"C:/Users/ndlov/Documents/virtual-agent-capstone/VirtualAgent/Content/__ExternalActors__/Prototype1/2/7C/RSQGXR02MCKQNEX3TQYTFU.uasset",
 				"C:/Users/ndlov/Documents/virtual-agent-capstone/VirtualAgent/Content/__ExternalObjects__/Prototype1/0/D1/Z34BVXX7EW9Q9TF3QL0AUH.uasset",
