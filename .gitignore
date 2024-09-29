@@ -79,3 +79,7 @@ VirtualAgent/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
 VirtualAgent/Saved/Logs/VirtualAgent.log
 VirtualAgent/Saved/Telemetry/Telemetry.json
 VirtualAgent/Saved/SourceControl/UncontrolledChangelists.json
+/VirtualAgent/Saved/Telemetry
+/VirtualAgent/Saved/Config
+/VirtualAgent/Intermediate
+VirtualAgent/Saved/AutoScreenshot.png
