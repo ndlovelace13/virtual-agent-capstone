@@ -1,11 +1,11 @@
-"C:\Users\ndlov\Documents\virtual-agent-capstone\VirtualAgent\Source\VirtualAgent\VirtualAgent.cpp"
-/FI"C:\Users\ndlov\Documents\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\VirtualAgentEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"C:\Users\ndlov\Documents\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualAgent\Definitions.VirtualAgent.h"
-/Yu"C:\Users\ndlov\Documents\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\VirtualAgentEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"C:\Users\ndlov\Documents\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\VirtualAgentEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"C:\Users\ndlov\Documents\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualAgent\VirtualAgent.cpp.obj"
-/sourceDependencies "C:\Users\ndlov\Documents\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualAgent\VirtualAgent.cpp.dep.json"
-@"C:\Users\ndlov\Documents\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualAgent\VirtualAgent.Shared.rsp"
+"C:\Users\ndlov\Documents\Unreal Projects\virtual-agent-capstone\VirtualAgent\Source\VirtualAgent\VirtualAgent.cpp"
+/FI"C:\Users\ndlov\Documents\Unreal Projects\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\VirtualAgentEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"C:\Users\ndlov\Documents\Unreal Projects\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualAgent\Definitions.VirtualAgent.h"
+/Yu"C:\Users\ndlov\Documents\Unreal Projects\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\VirtualAgentEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"C:\Users\ndlov\Documents\Unreal Projects\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\VirtualAgentEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"C:\Users\ndlov\Documents\Unreal Projects\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualAgent\VirtualAgent.cpp.obj"
+/sourceDependencies "C:\Users\ndlov\Documents\Unreal Projects\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualAgent\VirtualAgent.cpp.dep.json"
+@"C:\Users\ndlov\Documents\Unreal Projects\virtual-agent-capstone\VirtualAgent\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualAgent\VirtualAgent.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi
