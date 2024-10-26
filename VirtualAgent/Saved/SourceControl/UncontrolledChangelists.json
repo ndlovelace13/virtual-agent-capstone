@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/jbsam/virtual-agent-capstone/VirtualAgent/Content/MetaHumans/Natalia/BP_HumanCharacter.uasset",
+				"C:/Users/jbsam/virtual-agent-capstone/VirtualAgent/Content/MetaHumans/Natalia/BP_Natalia.uasset",
+				"C:/Users/jbsam/virtual-agent-capstone/VirtualAgent/Content/LorenzoAR/ARGameMode.uasset",
+				"C:/Users/jbsam/virtual-agent-capstone/VirtualAgent/Content/LorenzoAR/ARPawn.uasset",
+				"C:/Users/jbsam/virtual-agent-capstone/VirtualAgent/Content/LorenzoAR/ARMap.umap",
 				"C:/Users/ndlov/Documents/Unreal Projects/virtual-agent-capstone/VirtualAgent/Content/Prototype1.umap",
 				"C:/Users/ndlov/Documents/Unreal Projects/virtual-agent-capstone/VirtualAgent/Content/TextTrigger.uasset",
 				"C:/Users/ndlov/Documents/Unreal Projects/virtual-agent-capstone/VirtualAgent/Content/3DModel_LowPoly.uasset",
