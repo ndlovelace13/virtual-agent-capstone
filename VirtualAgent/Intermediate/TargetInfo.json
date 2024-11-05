@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "VirtualAgent",
+			"Path": "..\\Source\\VirtualAgent.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "VirtualAgentEditor",
+			"Path": "..\\Source\\VirtualAgentEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
