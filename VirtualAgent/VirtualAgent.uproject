@@ -89,6 +89,10 @@
 		{
 			"Name": "LocationServicesAndroidImpl",
 			"Enabled": true
+		},
+		{
+			"Name": "LocationServicesAndroidImpl",
+			"Enabled": true
 		}
 	]
 }
