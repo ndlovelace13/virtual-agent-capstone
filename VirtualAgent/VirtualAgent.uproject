@@ -66,6 +66,10 @@
 		{
 			"Name": "TextToSpeech",
 			"Enabled": true
+		},
+		{
+			"Name": "LocationServicesAndroidImpl",
+			"Enabled": true
 		}
 	]
 }
