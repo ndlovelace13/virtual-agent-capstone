@@ -2870,6 +2870,14 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/TextToSpeech/Binaries/Win64/UnrealEditor-TextToSpeech.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/TextToSpeech/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/Binaries/Win64/UnrealEditor-ToolPresetAsset.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -3591,6 +3599,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/InputDebugging/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/LocationServicesAndroidImpl/Binaries/Win64/UnrealEditor-LocationServicesAndroidEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/LocationServicesAndroidImpl/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -26676,6 +26692,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/TextToSpeech/TextToSpeech.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/ToolPresets.uplugin",
 			"Type": "UFS"
 		},
@@ -26920,6 +26940,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/LocationServicesAndroidImpl/LocationServicesAndroidImpl.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/LocationServicesBPLibrary/LocationServicesBPLibrary.uplugin",
 			"Type": "UFS"
 		},
@@ -27123,6 +27147,7 @@
 		"LiveLink",
 		"LiveLinkControlRig",
 		"LocalizableMessage",
+		"LocationServicesAndroidImpl",
 		"LocationServicesBPLibrary",
 		"MacGraphicsSwitching",
 		"MaterialAnalyzer",
@@ -27187,6 +27212,7 @@
 		"Takes",
 		"TcpMessaging",
 		"TemplateSequence",
+		"TextToSpeech",
 		"TextureFormatOodle",
 		"ToolPresets",
 		"TraceDataFilters",
