@@ -2870,6 +2870,14 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/TextToSpeech/Binaries/Win64/UnrealEditor-TextToSpeech.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/TextToSpeech/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/Binaries/Win64/UnrealEditor-ToolPresetAsset.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -26676,6 +26684,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/TextToSpeech/TextToSpeech.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/ToolPresets.uplugin",
 			"Type": "UFS"
 		},
@@ -27187,6 +27199,7 @@
 		"Takes",
 		"TcpMessaging",
 		"TemplateSequence",
+		"TextToSpeech",
 		"TextureFormatOodle",
 		"ToolPresets",
 		"TraceDataFilters",

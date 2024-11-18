@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\jbsam\\virtual-agent-capstone\\VirtualAgent\\Source\\VirtualAgent\\VirtualAgent.Build.cs",
-		"C:\\Users\\jbsam\\virtual-agent-capstone\\VirtualAgent\\Source\\VirtualAgent.Target.cs",
-		"C:\\Users\\jbsam\\virtual-agent-capstone\\VirtualAgent\\Source\\VirtualAgentEditor.Target.cs"
+		"C:\\Users\\kwatterb\\Desktop\\UEProject\\virtual-agent-capstone\\VirtualAgent\\Source\\VirtualAgent\\VirtualAgent.Build.cs",
+		"C:\\Users\\kwatterb\\Desktop\\UEProject\\virtual-agent-capstone\\VirtualAgent\\Source\\VirtualAgent.Target.cs",
+		"C:\\Users\\kwatterb\\Desktop\\UEProject\\virtual-agent-capstone\\VirtualAgent\\Source\\VirtualAgentEditor.Target.cs"
 	],
 	"EngineVersion": "5.4.4"
 }
