@@ -1,0 +1,19 @@
+#pragma once
+
+#include "CoreMinimal.h"
+#include "UObject/NoExportTypes.h"
+#include "MyLocationClass.generated.h"
+
+/**
+ * A class to handle getting location from Android
+ */
+UCLASS()
+class MYPROJECT_API UMyLocationClass : public UObject
+{
+    GENERATED_BODY()
+
+public:
+    // Function to call Java method for location
+    UFUNCTION(BlueprintCallable, Category = "Location")
+    static TArray<float> GetCurrentLocation();
+};

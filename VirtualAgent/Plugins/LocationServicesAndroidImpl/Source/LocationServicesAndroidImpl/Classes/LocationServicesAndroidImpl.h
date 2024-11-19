@@ -46,6 +46,12 @@ public:
 	virtual FLocationServicesData  GetLastKnownLocation() override;
 
 	/**
+	* Returns the current location information returned by the location service. 
+	* @return - the last known location from updates
+	*/
+	virtual FLocationServicesData  GetCurrentLocation() override;
+
+	/**
 	* Checks if the supplied Accuracy is available on the current device.
 	* @param Accuracy - the accuracy to check
 	* @return - true if the mobile device can support the Accuracy, false if it will use a different accuracy

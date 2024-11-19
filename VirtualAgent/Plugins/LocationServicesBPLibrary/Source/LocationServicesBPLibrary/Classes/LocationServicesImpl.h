@@ -40,6 +40,12 @@ public:
 	* @return - the last known location from updates
 	*/
 	virtual FLocationServicesData GetLastKnownLocation() { return FLocationServicesData(); }
+
+	/**
+	* Returns the current location information returned by the location service.
+	* @return - the current location from updates
+	*/
+	virtual FLocationServicesData GetCurrentLocation() { return FLocationServicesData(); }
 	
 	/**
 	* Checks if the supplied Accuracy is available on the current device.

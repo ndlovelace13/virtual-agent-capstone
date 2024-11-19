@@ -110,6 +110,10 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Services|Mobile|Location")
 	static FLocationServicesData GetLastKnownLocation();
 	
+
+	UFUNCTION(BlueprintCallable, Category = "Services|Mobile|Location")
+	static FLocationServicesData GetCurrentLocation();
+
 	/**
 	* Checks if the Location Services on the mobile device are enabled for this application
 	* @return - true if the mobile device has enabled the appropriate service for the app 
