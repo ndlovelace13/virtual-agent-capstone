@@ -53,7 +53,7 @@ bool ULocationServicesAndroidImpl::StopLocationService()
 FLocationServicesData ULocationServicesAndroidImpl::GetLastKnownLocation()
 {
 	FLocationServicesData LocData;
-
+	
 	if (JNIEnv* Env = FAndroidApplication::GetJavaEnv())
 	{
 		static jmethodID GetLastKnownLocationMethod = FJavaWrapper::FindMethod(Env, FJavaWrapper::GameActivityClassID, "AndroidThunkJava_GetLastKnownLocation", "()[F", false);
@@ -77,35 +77,6 @@ FLocationServicesData ULocationServicesAndroidImpl::GetLastKnownLocation()
 
 	return LocData;
 }
-
-FLocationServicesData ULocationServicesAndroidImpl::GetCurrentLocation()
-{
-	FLocationServicesData LocData;
-
-	if (JNIEnv* Env = FAndroidApplication::GetJavaEnv())
-	{
-		static jmethodID GetCurrentLocationMethod = FJavaWrapper::FindMethod(Env, FJavaWrapper::GameActivityClassID, "AndroidThunkJava_GetCurrentLocation", "()[F", false);
-
-		auto FloatValuesArray = NewScopedJavaObject(Env, (jfloatArray)FJavaWrapper::CallObjectMethod(Env, FJavaWrapper::GameActivityThis, GetCurrentLocationMethod));
-
-		jfloat* FloatValues = Env->GetFloatArrayElements(*FloatValuesArray, 0);
-
-		if (Env->GetArrayLength(*FloatValuesArray) >= 6)
-		{
-			LocData.Timestamp = FloatValues[0];
-			LocData.Longitude = FloatValues[1];
-			LocData.Latitude = FloatValues[2];
-			LocData.HorizontalAccuracy = FloatValues[3];
-			LocData.VerticalAccuracy = FloatValues[4];
-			LocData.Altitude = FloatValues[5];
-		}
-
-		Env->ReleaseFloatArrayElements(*FloatValuesArray, FloatValues, 0);
-	}
-
-	return LocData;
-}
-
 
 bool ULocationServicesAndroidImpl::IsLocationAccuracyAvailable(ELocationAccuracy Accuracy)
 {

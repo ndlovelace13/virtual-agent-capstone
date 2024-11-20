@@ -273,51 +273,6 @@
 		}
     }
 	
-	    public float[] AndroidThunkJava_GetCurrentLocation()
-    {
-		Location lastLocation = null;
-		
-        if(LastReportedLocation != null)
-        {
-			lastLocation = LastReportedLocation;
-        }
-        else
-        {
-			//if we haven't gotten an update about the location, try to fetch the LocationManager's last known location
-			LocationManager locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
-			if(locationManager != null)
-			{
-				try
-				{
-					String providerName = GetBestLocationProvider();
-					lastLocation = locationManager.getLastKnownLocation(providerName);
-				}
-				catch(Exception e) //in older APIs, isProviderEnabled will throw an exception if false...
-				{
-					Log.debug("AndroidThunkJava_GetLastKnownLocation threw exception: " + e.getMessage());
-					e.printStackTrace();
-				}
-			}
-        }
-		
-		if(lastLocation == null)
-		{
-			return new float[] { 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f };
-		}
-		else
-		{
-			return new float[]
-			{
-				(float)lastLocation.getTime(),
-				(float)lastLocation.getLongitude(),
-				(float)lastLocation.getLatitude(),
-				lastLocation.getAccuracy(),
-				0.0f, //no vertical accuracy on Android, just an overall value in horizontal
-				(float)lastLocation.getAltitude()
-			};
-		}
-    }
-	
 	public boolean AndroidThunkJava_IsLocationAccuracyAvailable(int Accuracy)
 	{
 		int locationAccurcy;

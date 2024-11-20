@@ -63,17 +63,6 @@ FLocationServicesData ULocationServices::GetLastKnownLocation()
 	return FLocationServicesData();
 }
 
-FLocationServicesData ULocationServices::GetCurrentLocation()
-{
-	if (ImplInstance != NULL)
-	{
-		return ImplInstance->GetCurrentLocation();
-	}
-
-	return FLocationServicesData();
-}
-
-
 bool ULocationServices::IsLocationAccuracyAvailable(ELocationAccuracy Accuracy)
 {
 	if (ImplInstance != NULL)
