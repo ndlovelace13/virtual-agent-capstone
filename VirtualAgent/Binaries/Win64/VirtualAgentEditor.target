@@ -3518,6 +3518,18 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Binaries/Win64/UnrealEditor-GeoReferencing.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Binaries/Win64/UnrealEditor-GeoReferencingEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/GeometryCache/Binaries/Win64/UnrealEditor-GeometryCache.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -26928,6 +26940,78 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/GeoReferencing.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Resources/PROJ/CH",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Resources/PROJ/GL27",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Resources/PROJ/ITRF2000",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Resources/PROJ/ITRF2008",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Resources/PROJ/ITRF2014",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Resources/PROJ/copyright",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Resources/PROJ/deformation_model.schema.json",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Resources/PROJ/nad.lst",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Resources/PROJ/nad27",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Resources/PROJ/nad83",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Resources/PROJ/other.extra",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Resources/PROJ/proj.db",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Resources/PROJ/proj.ini",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Resources/PROJ/projjson.schema.json",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Resources/PROJ/triangulation.schema.json",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Resources/PROJ/usage",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GeoReferencing/Resources/PROJ/world",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/GeometryCache/GeometryCache.uplugin",
 			"Type": "UFS"
 		},
@@ -27134,6 +27218,7 @@
 		"GLTFExporter",
 		"GameplayCameras",
 		"GameplayTagsEditor",
+		"GeoReferencing",
 		"GeometryCache",
 		"GeometryCollectionPlugin",
 		"GeometryFlow",
