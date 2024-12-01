@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb71bac4-6c76-4953-869c-d7d29ad7bae2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Binaries/Win64/UnrealEditor-VirtualAgent.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Binaries/Win64/UnrealEditor-VirtualAgent.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Binaries/Win64/VirtualAgentEditor.target" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Binaries/Win64/VirtualAgentEditor.target" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Content/ARGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Content/ARGameMode.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Content/KamdenAR/ARGameModeKW.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Content/KamdenAR/ARMapKW.umap" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Content/KamdenAR/ARMapKW.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Content/KamdenAR/ARModeOverlayKW.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Content/Main/ARMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Content/Main/ARMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Content/Main/ARPawn.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Content/NoahAR/ARPawn.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/BuildRules/VirtualAgentModuleRules.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/BuildRules/VirtualAgentModuleRules.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/BuildRules/VirtualAgentModuleRulesManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/BuildRules/VirtualAgentModuleRulesManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/ActionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/VirtualAgentEditor/Development/VirtualAgentEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/VirtualAgentEditor/Development/VirtualAgentEditor.uhtmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/ActionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/Development/VirtualAgent/Default.rc2.res.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/Development/VirtualAgent/Default.rc2.res.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/Development/VirtualAgent/Definitions.VirtualAgent.h" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/Development/VirtualAgent/Definitions.VirtualAgent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/Development/VirtualAgent/UnrealEditor-VirtualAgent.dll.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/Development/VirtualAgent/UnrealEditor-VirtualAgent.dll.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/Development/VirtualAgent/UnrealEditor-VirtualAgent.exp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/Development/VirtualAgent/UnrealEditor-VirtualAgent.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/Development/VirtualAgent/UnrealEditor-VirtualAgent.lib.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/Development/VirtualAgent/UnrealEditor-VirtualAgent.lib.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/Development/VirtualAgent/UnrealEditor-VirtualAgent.sup.exp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/Development/VirtualAgent/UnrealEditor-VirtualAgent.sup.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/Development/VirtualAgent/VirtualAgent.Shared.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/Development/VirtualAgent/VirtualAgent.Shared.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/Development/VirtualAgent/VirtualAgent.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/Development/VirtualAgent/VirtualAgent.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/Development/VirtualAgent/VirtualAgent.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/UnrealEditor/Development/VirtualAgent/VirtualAgent.cpp.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Core/SharedPCH.Core.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Core/SharedPCH.Core.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Core/SharedPCH.Core.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Core/SharedPCH.Core.Cpp20.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Core/SharedPCH.Core.Cpp20.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Core/SharedPCH.Core.Cpp20.h.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Engine/SharedPCH.Engine.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Engine/SharedPCH.Engine.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Engine/SharedPCH.Engine.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Engine/SharedPCH.Engine.Cpp20.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.Cpp20.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.Cpp20.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.Cpp20.h.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Makefile.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Slate/SharedPCH.Slate.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Slate/SharedPCH.Slate.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Slate/SharedPCH.Slate.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Slate/SharedPCH.Slate.Cpp20.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/TargetMetadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/TargetMetadata.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Intermediate/Build/Win64/x64/VirtualAgentEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Plugins/LocationServicesAndroidImpl/Source/LocationServicesAndroidImpl/Classes/LocationServicesAndroidImpl.h" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Plugins/LocationServicesAndroidImpl/Source/LocationServicesAndroidImpl/Classes/LocationServicesAndroidImpl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Plugins/LocationServicesAndroidImpl/Source/LocationServicesAndroidImpl/LocationServicesAndroidImpl_UPL.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Plugins/LocationServicesAndroidImpl/Source/LocationServicesAndroidImpl/LocationServicesAndroidImpl_UPL.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Plugins/LocationServicesAndroidImpl/Source/LocationServicesAndroidImpl/Private/LocationServicesAndroidImpl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Plugins/LocationServicesAndroidImpl/Source/LocationServicesAndroidImpl/Private/LocationServicesAndroidImpl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Plugins/LocationServicesBPLibrary/Source/LocationServicesBPLibrary/Classes/LocationServicesBPLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Plugins/LocationServicesBPLibrary/Source/LocationServicesBPLibrary/Classes/LocationServicesBPLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Plugins/LocationServicesBPLibrary/Source/LocationServicesBPLibrary/Classes/LocationServicesImpl.h" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Plugins/LocationServicesBPLibrary/Source/LocationServicesBPLibrary/Classes/LocationServicesImpl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Plugins/LocationServicesBPLibrary/Source/LocationServicesBPLibrary/Private/LocationServicesBPLibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Plugins/LocationServicesBPLibrary/Source/LocationServicesBPLibrary/Private/LocationServicesBPLibrary.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualAgent/Saved/Config/WindowsEditor/Editor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualAgent/Saved/Config/WindowsEditor/Editor.ini" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2p32yXPrjTayB6Dlm2aEZdVlo7K" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "joshin/locationServicesLONGLAT",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jbsam/virtual-agent-capstone",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb71bac4-6c76-4953-869c-d7d29ad7bae2" name="Changes" comment="" />
+      <created>1731980700648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731980700648</updated>
+    </task>
+    <servers />
+  </component>
+</project>
