@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\jbsam\\virtual-agent-capstone\\virtualagent\\source\\virtualagent\\virtualagent.cpp",
+        "Source": "c:\\users\\goose\\desktop\\capstone2\\virtual-agent-capstone\\virtualagent\\source\\virtualagent\\virtualagent.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\jbsam\\virtual-agent-capstone\\virtualagent\\intermediate\\build\\win64\\x64\\virtualagenteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "c:\\users\\goose\\desktop\\capstone2\\virtual-agent-capstone\\virtualagent\\intermediate\\build\\win64\\x64\\virtualagenteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\jbsam\\virtual-agent-capstone\\virtualagent\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\virtualagent\\definitions.virtualagent.h",
-            "c:\\users\\jbsam\\virtual-agent-capstone\\virtualagent\\source\\virtualagent\\virtualagent.h"
+            "c:\\users\\goose\\desktop\\capstone2\\virtual-agent-capstone\\virtualagent\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\virtualagent\\definitions.virtualagent.h",
+            "c:\\users\\goose\\desktop\\capstone2\\virtual-agent-capstone\\virtualagent\\source\\virtualagent\\virtualagent.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
